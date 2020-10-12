@@ -1,0 +1,57 @@
+.header-button{
+    color: #a5a5a5;
+    padding: 21px;
+    border-radius: 3px;
+}
+.header-button:focus{
+    background-color: #e24f43;
+    color: #ffffff;
+}
+
+#header-buttons-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header-buttons-wrapper > .header-button:last-child{
+    margin-right: 38px;
+}
+
+#header-logo-title{
+    color: #5c5c5c;
+    font-size: 30px;
+}
+
+#header-logo-description{
+    color: #a5a5a5;
+    font-size: 12px;
+}
+
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 5px solid #5c5c5c;
+    height: 115px;
+    align-items: center;
+}
+
+#container{
+    width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+    max-width: 1171px;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+}
+
+*{
+    font-family: 'Fjalla One';
+}
