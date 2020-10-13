@@ -140,6 +140,7 @@
 
     #header{
         height: auto;
+        padding-bottom: 10px;
     }
 
     #header-menu-button{
