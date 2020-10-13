@@ -1,3 +1,64 @@
+.banner-blackout-title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 13px 11px 12px 10px;
+    background-color: #000000;
+    color: #eeeeee;
+    font-size: 18px;
+}
+
+#banner ul li:last-child .banner-blackout-title{
+    background-color: #e24f43;
+}
+
+#banner ul li{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#banner ul li:nth-child(1){
+    background-color: rgba(0,0,0,.6);
+    border-top-left-radius: 3px;
+    top: 0;
+    left: 0;
+}
+
+#banner ul li:nth-child(2){
+    background-color: rgba(0,0,0,.4);
+    border-top-right-radius: 3px;
+    top: 0;
+    right: 0;
+}
+
+#banner ul li:nth-child(3){
+    background-color: rgba(0,0,0,.4);
+    border-bottom-left-radius: 3px;
+    bottom: 0;
+    left: 0;
+}
+
+#banner ul li:nth-child(4){
+    background-color: rgba(0,0,0,.1);
+    border-bottom-right-radius: 3px;
+    bottom: 0;
+    right: 0;
+}
+
+#banner-image{
+    vertical-align:bottom;
+    width: 100%;
+}
+
+#banner{
+    position: relative;
+    height: 100%;
+}
+
 .menu-icon-bar{
     background-color: #5c5c5c;
     border-radius: 2px;
@@ -93,6 +154,20 @@
         margin-top: 10px;
     }
     
+}
+
+@media(min-width: 280px) and (max-width: 414px){
+    .banner-blackout-title{
+        font-size: 9px;
+        padding: 6px;
+    }
+}
+
+@media(min-width: 415px) and (max-width: 769px){
+    .banner-blackout-title{
+        font-size: 12px;
+        padding: 10px;
+    }
 }
 
 @media(min-width:770px) and (max-width: 1170px){
