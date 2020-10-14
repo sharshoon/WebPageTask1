@@ -30,6 +30,7 @@
 }
 #title-main-wrapper{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 58px 0px 64px 0px;
     text-transform: uppercase;
@@ -155,6 +156,32 @@
 }
 
 @media(min-width:280px) and (max-width: 769px){
+    #title-main-wrapper button{
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #title-main{
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    #title-main-description{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #title-main-info{
+        width: 100%;
+    }
+
+    #title-main-wrapper{
+        padding: 15px 0px;
+    }
+
     #header-buttons-wrapper{
         display: none;
     }
@@ -209,6 +236,10 @@
 @media(min-width:770px) and (max-width: 1170px){
     #header-logo{
         padding-left: 10px;
+    }
+
+    #title-main-wrapper{
+        margin: 0px 10px;
     }
 }
 
