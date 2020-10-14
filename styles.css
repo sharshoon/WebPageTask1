@@ -1,3 +1,30 @@
+#title-main-description{
+    font-size: 18px;
+    color: #a5a5a5;
+}
+
+#title-main{
+    font-size: 30px;
+    color: #5c5c5c;
+}
+
+#title-main-wrapper button{
+    padding: 19px;
+    background-color: #e24f43;
+    outline: none;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 0;
+    text-transform: uppercase;
+}
+#title-main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 58px 0px 64px 0px;
+    text-transform: uppercase;
+}
+
 .banner-blackout-title{
     position: absolute;
     bottom: 0;
@@ -180,6 +207,10 @@ a{
 }
 
 body{
+    margin: 0px;
+}
+
+ul{
     margin: 0px;
 }
 
