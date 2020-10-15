@@ -163,6 +163,7 @@
     background-color: #000000;
     color: #eeeeee;
     font-size: 18px;
+    text-transform: uppercase;
 }
 
 #banner ul li:last-child .banner-blackout-title{
@@ -245,6 +246,7 @@
     align-items: center;
     height: 56px;
     padding: 0px 20px;
+    text-transform: uppercase;
 }
 
 #header-buttons-wrapper{
@@ -257,6 +259,7 @@
 
 #header-logo-title{
     color: #5c5c5c;
+    text-transform: uppercase;
 }
 
 #header-logo-description{
