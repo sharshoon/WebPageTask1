@@ -1,3 +1,51 @@
+.users-card-info button{
+    height: 30px;
+    width: 50px;
+    margin-top: 30px;
+    background-color: #e24f43;
+    border: 0;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.users-card-description{
+    font-size: 14px;
+    color: #a5a5a5;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.users-card-name h3{
+    font-size: 20px;
+    color: #5c5c5c;
+    text-transform: uppercase;
+}
+
+.users-card-name{
+    margin-bottom: 25px;
+}
+
+.users-card-info{
+    border: 1px solid #dfdfdf;
+    border-radius: 0px 0px 3px 3px;
+    padding: 30px;
+}
+
+.users-card-photo img{
+    vertical-align: bottom;
+}
+
+.users-card{
+    height: 458px;
+    width: 270px;
+}
+
+#users-panel{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #subscribe-area input[type="text"]{
     width: 330px;
     font-size: 14px;
@@ -35,7 +83,6 @@
 
 #subscribe-area-title h3{
     font-size: 29px;
-    margin: 0;
 }
 
 #subscribe-area-title{
@@ -440,6 +487,12 @@
     }
 }
 
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+
 h1,h2{
     margin: 0;
     font-weight: 400;
@@ -455,6 +508,7 @@ h2{
 
 h3{
     font-weight: 400;
+    margin: 0;
 }
 
 a{
