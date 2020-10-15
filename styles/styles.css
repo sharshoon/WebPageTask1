@@ -115,7 +115,7 @@
 }
 
 #content-table-wrapper{
-    padding: 59px 0px;
+    margin: 59px 0px;
 }
 
 .separator{
@@ -274,6 +274,37 @@
 }
 
 @media(min-width:280px) and (max-width: 769px){
+    #subscribe-area input:last-child{
+        margin: 0;
+    }
+
+    #subscribe-area input[type="text"],
+    #subscribe-area input[type="submit"]{
+        width: 100%;
+    }
+    
+    #subscribe-area{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    #subscribe-area form{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    #subscribe-area form input{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    #subscribe-area form input:last-child{
+        margin-bottom: 0px;
+    }
+
     #content-table-wrapper ul li:first-child,
     #content-table-wrapper ul li:nth-child(2),
     #content-table-wrapper ul li:nth-child(3){
