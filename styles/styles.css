@@ -1,3 +1,56 @@
+#subscribe-area input[type="text"]{
+    width: 330px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #b1b1b1;
+    padding-left: 10px;
+}
+
+#subscribe-area input[type="submit"]{
+    width: 130px;
+    background-color: #e24f43;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#subscribe-area form{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#subscribe-area input:last-child{
+    margin-right: 50px;
+}
+
+#subscribe-area input{
+    height: 40px;
+    border: 0;
+    padding: 0;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+#subscribe-area-title h3{
+    font-size: 29px;
+}
+
+#subscribe-area-title{
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 37px 72px 37px 30px;
+}
+
+#subscribe-area{
+    height: 100px;
+    background-color: #5c5c5c;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
 .content-table-icon{
     width: 130px;
     height: 130px;
@@ -39,7 +92,6 @@
 }
 
 .content-table-title h3{
-    font-weight: 400;
     font-size: 20px;
 }
 
@@ -354,6 +406,10 @@ h1{
 
 h2{ 
     font-size: 18px;
+}
+
+h3{
+    font-weight: 400;
 }
 
 a{
