@@ -18,10 +18,11 @@
     display: flex;
     align-items: center;
     box-sizing: border-box;
+    margin-left: 72px;
 }
 
 #subscribe-area input:last-child{
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 #subscribe-area input{
@@ -34,21 +35,22 @@
 
 #subscribe-area-title h3{
     font-size: 29px;
+    margin: 0;
 }
 
 #subscribe-area-title{
     color: #ffffff;
     text-transform: uppercase;
-    margin: 37px 72px 37px 30px;
 }
 
 #subscribe-area{
-    height: 100px;
     background-color: #5c5c5c;
     border-radius: 3px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 60px;
+    padding: 30px;
 }
 
 .content-table-icon{
