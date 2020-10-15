@@ -1,3 +1,58 @@
+#subscribe-area input[type="text"]{
+    width: 330px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #b1b1b1;
+    padding-left: 10px;
+}
+
+#subscribe-area input[type="submit"]{
+    width: 130px;
+    background-color: #e24f43;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#subscribe-area form{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 72px;
+}
+
+#subscribe-area input:last-child{
+    margin-right: 20px;
+}
+
+#subscribe-area input{
+    height: 40px;
+    border: 0;
+    padding: 0;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+#subscribe-area-title h3{
+    font-size: 29px;
+    margin: 0;
+}
+
+#subscribe-area-title{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#subscribe-area{
+    background-color: #5c5c5c;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    padding: 30px;
+}
+
 .content-table-icon{
     width: 130px;
     height: 130px;
@@ -39,7 +94,6 @@
 }
 
 .content-table-title h3{
-    font-weight: 400;
     font-size: 20px;
 }
 
@@ -61,7 +115,7 @@
 }
 
 #content-table-wrapper{
-    padding: 59px 0px;
+    margin: 59px 0px;
 }
 
 .separator{
@@ -220,6 +274,37 @@
 }
 
 @media(min-width:280px) and (max-width: 769px){
+    #subscribe-area input:last-child{
+        margin: 0;
+    }
+
+    #subscribe-area input[type="text"],
+    #subscribe-area input[type="submit"]{
+        width: 100%;
+    }
+    
+    #subscribe-area{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    #subscribe-area form{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    #subscribe-area form input{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    #subscribe-area form input:last-child{
+        margin-bottom: 0px;
+    }
+
     #content-table-wrapper ul li:first-child,
     #content-table-wrapper ul li:nth-child(2),
     #content-table-wrapper ul li:nth-child(3){
@@ -354,6 +439,10 @@ h1{
 
 h2{ 
     font-size: 18px;
+}
+
+h3{
+    font-weight: 400;
 }
 
 a{
