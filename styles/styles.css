@@ -181,6 +181,7 @@
 
 #title-main-description{
     color: #a5a5a5;
+    font-size: 18px;
 }
 
 #title-main{
@@ -340,7 +341,7 @@
     overflow: hidden;
 }
 
-@media(min-width:280px) and (max-width: 767px){
+@media(min-width:280px) and (max-width: 768px){
     #users-panel ul li:last-child{
         margin-bottom: 0;
     }
@@ -432,10 +433,13 @@
         margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
+        font-size: 16px;
+        height: 45px;
+        width: 180px;
     }
 
     #title-main{
-        font-size: 16px;
+        font-size: 20px;
         text-align: center;
     }
     
@@ -518,6 +522,18 @@
     
     #users-panel ul li{
         margin: 0 0 15px 0;
+    }
+
+    #subscribe-area-title{
+        margin-bottom: 10px;
+    }
+
+    #subscribe-area{
+        justify-content: center;
+    }
+
+    #content-table-wrapper ul {
+        padding: 0 15px;
     }
 
     #header-logo{
