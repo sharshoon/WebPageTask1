@@ -340,7 +340,7 @@
     overflow: hidden;
 }
 
-@media(min-width:280px) and (max-width: 767px){
+@media(min-width:280px) and (max-width: 768px){
     #users-panel ul li:last-child{
         margin-bottom: 0;
     }
@@ -518,6 +518,10 @@
     
     #users-panel ul li{
         margin: 0 0 15px 0;
+    }
+
+    #content-table-wrapper ul {
+        padding: 0 15px;
     }
 
     #header-logo{
