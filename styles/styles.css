@@ -376,6 +376,59 @@
     overflow: hidden;
 }
 
+button, 
+button:active, 
+button:focus,
+input[type="submit"],
+input[type="submit"]:active,
+input[type="submit"]:focus {
+    outline: none;
+}
+
+h1,h2{
+    margin: 0;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{ 
+    font-size: 18px;
+}
+
+h3{
+    font-weight: 400;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    display: flex;
+    margin: 50px 0px 80px 0px;
+}
+
+*{
+    font-family: 'Fjalla One';
+}
+
 @media(min-width:280px) and (max-width: 768px){
     #users-panel ul li:last-child{
         margin-bottom: 0;
@@ -526,20 +579,57 @@
         display: block;
         width: 100%;
     }
-    
+
+    .footer-card-name{
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .footer-card-info{
+        display: flex;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 15px 0px 15px 0px;
+    }
+
 }
 
-@media(min-width: 280px) and (max-width: 414px){
+@media(min-width: 280px) and (max-width: 415px){
     .banner-blackout-title{
         font-size: 9px;
         padding: 6px;
     }
+
+    .footer-card{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .footer-card:last-child{
+        margin-bottom: 0;
+    }
 }
 
-@media(min-width: 415px) and (max-width: 767px){
+@media(min-width: 416px) and (max-width: 767px){
     .banner-blackout-title{
         font-size: 12px;
         padding: 10px;
+    }
+
+    .footer-card{
+        width: 40%;
+        margin-bottom: 15px;
+    }
+
+    .footer-card:last-child{
+        margin-bottom: 0;
+    }
+
+    footer{
+        justify-content: space-around;
     }
 }
 
@@ -578,58 +668,25 @@
     #title-main-wrapper{
         margin: 0px 10px;
     }
-}
 
-button, 
-button:active, 
-button:focus,
-input[type="submit"],
-input[type="submit"]:active,
-input[type="submit"]:focus {
-    outline: none;
-}
+    .footer-card{
+        width: 20%;
+    }
 
-h1,h2{
-    margin: 0;
-    font-weight: 400;
-}
+    .footer-card-name{
+        margin-bottom: 5px;
+    }
 
-h1{
-    font-size: 30px;
-}
+    .footer-card-info ul li{
+        margin-right: 15px;
+    }
 
-h2{ 
-    font-size: 18px;
-}
+    .footer-card-info ul li span{
+        margin-left: 0;
+    }
 
-h3{
-    font-weight: 400;
-    margin: 0;
-}
-
-a{
-    text-decoration: none;
-}
-
-body{
-    margin: 0px;
-}
-
-li{
-    list-style-type: none;
-}
-
-ul{
-    margin: 0px;
-    padding: 0px;
-}
-
-footer{
-    display: flex;
-    margin: 50px 0px 80px 0px;
-}
-
-
-*{
-    font-family: 'Fjalla One';
+    footer{
+        margin: 15px 0px 15px 0px;
+        justify-content: space-around;
+    }
 }
