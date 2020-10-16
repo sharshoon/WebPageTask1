@@ -520,6 +520,14 @@
         margin: 0 0 15px 0;
     }
 
+    #subscribe-area-title{
+        margin-bottom: 10px;
+    }
+
+    #subscribe-area{
+        justify-content: center;
+    }
+
     #content-table-wrapper ul {
         padding: 0 15px;
     }
