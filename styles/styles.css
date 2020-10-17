@@ -130,12 +130,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     margin: 58px 0px 64px 0px;
 }
 
 #title-main{
     font-size: 30px;
+    line-height: 1;
+    padding: 0;
+    margin-bottom: 8px;
 }
 
 #title-main-description{
@@ -148,6 +150,7 @@
     width: 230px;
     font-size: 20px;
     padding: 0;
+    margin-right: 2px;
 }
 
 #title-main-wrapper button span{
