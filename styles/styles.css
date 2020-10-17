@@ -15,16 +15,17 @@
     color: #a5a5a5;
 }
 
+#header-logo .title{
+    margin-top: 6px;
+}
+
 #header-logo-description{
     font-size: 12px;
 }
 
 #header-buttons-wrapper{
     display: flex;
-}
-
-#header-buttons-wrapper > .header-button:last-child{
-    margin-right: 38px;
+    margin-right: 35px;
 }
 
 .header-button{
@@ -35,7 +36,8 @@
     justify-content: center;
     align-items: center;
     height: 56px;
-    padding: 0px 20px;
+    padding: 0 23px 0px 18px;
+    margin: 0 1px 0px 3px;
     text-transform: uppercase;
 }
 
@@ -352,6 +354,7 @@
 header{
     display: flex;
     flex-wrap: wrap;
+    box-sizing: border-box;
     height: 115px;
     justify-content: space-between;
     border-top: 5px solid #5c5c5c;
@@ -383,6 +386,8 @@ h1,h2{
 
 h1{
     font-size: 30px;
+    padding: 0;
+    line-height: 0.8;
 }
 
 h2{ 
@@ -553,10 +558,10 @@ footer{
     }
 
     #header-logo{
-        padding: 10px 0px 10px 10px;
+        padding: 15px
     }
 
-    #header{
+    header{
         height: auto;
     }
 
