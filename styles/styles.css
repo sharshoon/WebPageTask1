@@ -112,10 +112,14 @@
 }
 
 .banner-blackout-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
+    height: 40px;
     bottom: 0;
     left: 0;
-    padding: 13px 11px 12px 10px;
+    padding: 0px 11px 0px 9px;
     background-color: #000000;
     color: #eeeeee;
     font-size: 18px;
@@ -359,6 +363,7 @@ header{
     justify-content: space-between;
     border-top: 5px solid #5c5c5c;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 button, 
