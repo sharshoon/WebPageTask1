@@ -9,228 +9,200 @@
     <title>Website</title>
 </head>
 <body>
-    <div id="container">
-        <header>
-            <div id="header-logo">
-                <h1 class="title">Website Name</h1>
-                <class id="header-logo-description" class="description">lorem ipsum dolor sit amet</class>
-            </div>
-            <div id="header-menu-button">
-                <div class="menu-icon-bar"></div>
-                <div class="menu-icon-bar"></div>
-                <div class="menu-icon-bar"></div>
-            </div>
-            <div id="header-buttons-wrapper">
-                <a class="header-button" href="#">Home</a>
-                <a class="header-button" href="#">About</a>
-                <a class="header-button" href="#">Services</a>
-                <a class="header-button" href="#">Portfolio</a>
-                <a class="header-button" href="#">Contact</a>
-            </div>
-        </header>
-        <div id="banner">
-            <img id="banner-image" src="images/banner.png" alt="banner">
-            <ul>
-                <li>
-                    <div class="banner-blackout-title">it amet orc Aenean dignis</div>
-                </li>
-                <li>
-                    <div class="banner-blackout-title">it amet orc</div>
-                </li>
-                <li>
-                    <div class="banner-blackout-title">it amet orc Aenean</div>
-                </li>
-                <li>
-                    <div class="banner-blackout-title ">it amet orc Aenean dignis lorem</div>
-                </li>
-            </ul>
-        </div>
-        <main>
-            <div id="title-main-wrapper">
-                <div id="title-main-info">
-                    <h2 id="title-main" class="title">Donec nec justo eget felis facilisis fermen</h2>
-                    <div id="title-main-description" class="description">Aliquam porttitor mauris sit amet orci. Aenean dignissim nteger vitae libero ac risus</div>
+    <div class="container">
+        <div class="container__body">
+            <header class="header container__header">
+                <div class="header__logo">
+                    <h1 class="header__title title logo">Website Name</h1>
+                    <div class="header__logo-description description">lorem ipsum dolor sit amet</div>
                 </div>
-                <button type="button">
-                    <span>→</span>Euroting negesting
-                </button>
-            </div>
-            <div class="separator"></div>
-            <div id="content-table-wrapper">
+                <div id="header-menu-button">
+                    <div class="menu-icon-bar"></div>
+                    <div class="menu-icon-bar"></div>
+                    <div class="menu-icon-bar"></div>
+                </div>
+                <nav class="header__buttons-wrapper">
+                    <a class="header__button" href="#">Home</a>
+                    <a class="header__button" href="#">About</a>
+                    <a class="header__button" href="#">Services</a>
+                    <a class="header__button" href="#">Portfolio</a>
+                    <a class="header__button" href="#">Contact</a>
+                </nav>
+            </header>
+            <div class="banner container__banner">
+                <img class="banner__image" src="images/banner.png" alt="banner">
                 <ul>
-                    <li>
-                        <div class="content-table-icon-wrapper">
-                            <div class="content-table-icon">
+                    <li class="banner__blackout banner__blackout--first">
+                        <div class="banner__blackout-title">it amet orc Aenean dignis</div>
+                    </li>
+                    <li class="banner__blackout banner__blackout--second">
+                        <div class="banner__blackout-title">it amet orc</div>
+                    </li>
+                    <li class="banner__blackout banner__blackout--third">
+                        <div class="banner__blackout-title">it amet orc Aenean</div>
+                    </li>
+                    <li class="banner__blackout banner__blackout--forth ">
+                        <div class="banner__blackout-title banner__blackout-title--highlighted">it amet orc Aenean dignis lorem</div>
+                    </li>
+                </ul>
+            </div>
+            <main class="main">
+                <div class="main__title-wrapper title-main">
+                    <div class="title-main__title-info">
+                        <h2 class="title-main__title title logo">Donec nec justo eget felis facilisis fermen</h2>
+                        <div class="title-main__title-description description">Aliquam porttitor mauris sit amet orci. Aenean dignissim nteger vitae libero ac risus</div>
+                    </div>
+                    <button class="title-main__button button" type="button">
+                        <span class="title-main__button-arrow">→</span>Euroting negesting
+                    </button>
+                </div>
+                <div class="separator"></div>
+                <ul class="main__content-table-wrapper content-table">
+                    <li class="content-table__item content-table__item--push-down">
+                        <div class="content-table__icon-wrapper">
+                            <div class="content-table__icon">
                                 <img src="images/icons/cloud-icon.png" alt="cloud-icon">
                             </div>
                         </div>
-                        <div class="content-table-info-wrapper">
-                            <div class="content-table-info">
-                                <div class="content-table-title title">
-                                    <h3>Aliquam porttitor mauris sit amet</h3>
-                                </div>
-                                <div class="content-table-description description">
+                        <div class="content-table__info-wrapper">
+                            <div class="content-table__info">
+                                <h3 class="content-table__title title">Aliquam porttitor mauris sit amet</h3>
+                                <div class="content-table__description description">
                                     Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <div class="content-table-icon-wrapper">
-                            <div class="content-table-icon">
+                    <li class="content-table__item content-table__item--push-down">
+                        <div class="content-table__icon-wrapper">
+                            <div class="content-table__icon">
                                 <img src="images/icons/umbrella-icon.png" alt="umbrella-icon">
                             </div>
                         </div>
-                        <div class="content-table-info-wrapper">
-                            <div class="content-table-info">
-                                <div class="content-table-title title">
-                                    <h3>Lorem ipsum dolor sit amet</h3>
-                                </div>
-                                <div class="content-table-description description">
+                        <div class="content-table__info-wrapper">
+                            <div class="content-table__info">
+                                <h3 class="content-table__title title">Lorem ipsum dolor sit amet</h3>
+                                <div class="content-table__description description">
                                     Caesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <div class="content-table-icon-wrapper">
-                            <div class="content-table-icon">
+                    <li class="content-table__item">
+                        <div class="content-table__icon-wrapper">
+                            <div class="content-table__icon">
                                 <img src="images/icons/wrench-icon.png" alt="wrench-icon">
                             </div>
                         </div>
-                        <div class="content-table-info-wrapper">
-                            <div class="content-table-info">
-                                <div class="content-table-title title">
-                                    <h3>Aliquam porttitor mauris sit amet</h3>
-                                </div>
-                                <div class="content-table-description description">
+                        <div class="content-table__info-wrapper">
+                            <div class="content-table__info">
+                                <h3 class="content-table__title title">Aliquam porttitor mauris sit amet</h3>
+                                <div class="content-table__description description">
                                     Ajaesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li>
-                        <div class="content-table-icon-wrapper">
-                            <div class="content-table-icon">
+                    <li class="content-table__item">
+                        <div class="content-table__icon-wrapper">
+                            <div class="content-table__icon">
                                 <img src="images/icons/gears-icon.png" alt="geras-icon">
                             </div>
                         </div>
-                        <div class="content-table-info-wrapper">
-                            <div class="content-table-info">
-                                <div class="content-table-title title">
-                                    <h3>Aliquam porttitor mauris sit amet</h3>
-                                </div>
-                                <div class="content-table-description description">
+                        <div class="content-table__info-wrapper">
+                            <div class="content-table__info">
+                                <h3 class="content-table__title title">Aliquam porttitor mauris sit amet</h3>
+                                <div class="content-table__description description">
                                     Sent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
                                 </div>
                             </div>
                         </div>
                     </li>
                 </ul>
-            </div>
-            <div id="subscribe-area">
-                <div id="subscribe-area-title">
-                    <h3>Donec nec jus<h3>
+                <div class="main__subscribe-area subscribe-area">
+                    <h3 class="subscribe-area__title">Donec nec jus</h3>
+                    <form class="subscribe-area__form">
+                        <input class="subscribe-area__text-input input" type="text" name="name" placeholder="your name here...." required>
+                        <input class="subscribe-area__text-input input" type="text" name="email" placeholder="your emailhere...." required>
+                        <input class="subscribe-area__button button" type="submit" value="subscribe">
+                    </form>
                 </div>
-                <form>
-                    <input type="text" name="name" placeholder="your name here...." required>
-                    <input type="text" name="email" placeholder="your emailhere...." required>
-                    <input type="submit" value="subscribe">
-                </form>
-            </div>
-            <div id="users-panel">
-                <ul>
-                    <li>
-                        <div class="users-card-photo">
-                            <img src="images/avatar-001.png" alt="man-avatar-001">
-                        </div>
-                        <div class="users-card-info">
-                            <div class="users-card-name">
-                                <h3>Aliquam porttito</h3>
-                            </div>
-                            <div class="users-card-description description">
+                <ul class="main__users-panel users-panel">
+                    <li class="users-panel__card">
+                        <img class="users-panel__card-photo" src="images/avatar-001.png" alt="man-avatar-001">
+                        <div class="users-card__info">
+                            <h3 class="users-card__name title">Aliquam porttito</h3>
+                            <div class="users-card__description description">
                                 Praesent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam, gravid
                             </div>
-                            <button type="button">More</button>
+                            <button class="users-card__button button" type="button">More</button>
                         </div>
                     </li>
-                    <li>
-                        <div class="users-card-photo">
-                            <img src="images/avatar-002.png" alt="man-avatar-001">
-                        </div>
-                        <div class="users-card-info">
-                            <div class="users-card-name">
-                                <h3>Aliquam porttito</h3>
-                            </div>
-                            <div class="users-card-description description">
+                    <li class="users-panel__card">
+                        <img class="users-panel__card-photo" src="images/avatar-002.png" alt="man-avatar-001">
+                        <div class="users-card__info">
+                            <h3 class="users-card__name title">Aliquam porttito</h3>
+                            <div class="users-card__description description">
                                 Lore esent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam
                             </div>
-                            <button type="button">More</button>
+                            <button class="users-card__button button" type="button">More</button>
                         </div>
                     </li>
-                    <li>
-                        <div class="users-card-photo">
-                            <img src="images/avatar-003.png" alt="man-avatar-001">
-                        </div>
-                        <div class="users-card-info">
-                            <div class="users-card-name">
-                                <h3>Aliquam porttito</h3>
-                            </div>
-                            <div class="users-card-description description">
+                    <li class="users-panel__card">
+                        <img class="users-panel__card-photo" src="images/avatar-003.png" alt="man-avatar-001">
+                        <div class="users-card__info">
+                            <h3 class="users-card__name title">Aliquam porttito</h3>
+                            <div class="users-card__description description">
                                 Dolo sent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam
                             </div>
-                            <button type="button">More</button>
+                            <button class="users-card__button button" type="button">More</button>
                         </div>
                     </li>
-                    <li>
-                        <div class="users-card-photo">
-                            <img src="images/avatar-004.png" alt="man-avatar-001">
-                        </div>
-                        <div class="users-card-info">
-                            <div class="users-card-name">
-                                <h3>Aliquam porttito</h3>
-                            </div>
-                            <div class="users-card-description description">
+                    <li class="users-panel__card users-panel__card--remove-bottom-indent">
+                        <img class="users-panel__card-photo" src="images/avatar-004.png" alt="man-avatar-001">
+                        <div class="users-card__info">
+                            <h3 class="users-card__name title">Aliquam porttito</h3>
+                            <div class="users-card__description description">
                                 Dolo sent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam, gravid
                             </div>
-                            <button type="button">More</button>
+                            <button class="users-card__button button" type="button">More</button>
                         </div>
                     </li>
                 </ul>
-            </div>
-            <div class="separator"></div>
-        </main>
-        <footer>
-            <div class="footer-card">
-                <div class="footer-card-name">Designed By</div>
-                <div class="footer-card-info">www.alltemplateneeds.com</div>
-            </div>
-            <div class="footer-card">
-                <div class="footer-card-name">Photos From</div>
-                <div class="footer-card-info">www.wallpaperswide.com</div>
-            </div>
-            <div class="footer-card">
-                <div class="footer-card-name">copyrights</div>
-                <div class="footer-card-info">@2013. Sitename. All rights reserved</div>
-            </div>
-            <div class="footer-card">
-                <div class="footer-card-name">follow us</div>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="images/icons/twitter-icon.png">
-                            <span class="footer-card-info">Twitter</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="images/icons/facebook-icon.png">
-                            <span class="footer-card-info">Facebook</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
+                <div class="separator"></div>
+            </main>
+            <footer class="container__footer footer">
+                <div class="footer__card">
+                    <div class="footer__card-name">Designed By</div>
+                    <div class="footer__card-info">www.alltemplateneeds.com</div>
+                </div>
+                <div class="footer__card">
+                    <div class="footer__card-name">Photos From</div>
+                    <div class="footer__card-info">www.wallpaperswide.com</div>
+                </div>
+                <div class="footer__card">
+                    <div class="footer__card-name">copyrights</div>
+                    <div class="footer__card-info">@2013. Sitename. All rights reserved</div>
+                </div>
+                <div class="footer__card">
+                    <div class="footer__card-name">follow us</div>
+                    <ul class="footer__sn-wrapper">
+                        <li class="footer__sn">
+                            <a href="#">
+                                <img src="images/icons/twitter-icon.png">
+                                <span class="footer__card-info">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="footer__sn">
+                            <a href="#">
+                                <img src="images/icons/facebook-icon.png">
+                                <span class="footer__card-info">Facebook</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
     </div>
 </body>
 </html>
