@@ -600,6 +600,7 @@ footer{
     .banner-blackout-title{
         font-size: 9px;
         padding: 6px;
+        height: auto;
     }
 
     .footer-card{
@@ -616,6 +617,7 @@ footer{
     .banner-blackout-title{
         font-size: 12px;
         padding: 10px;
+        height: auto;
     }
 
     .footer-card{
