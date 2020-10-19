@@ -16,7 +16,7 @@
                     <h1 class="header__title title logo">Website Name</h1>
                     <div class="header__logo-description description">lorem ipsum dolor sit amet</div>
                 </div>
-                <div id="header-menu-button">
+                <div class="header__menu-button">
                     <div class="menu-icon-bar"></div>
                     <div class="menu-icon-bar"></div>
                     <div class="menu-icon-bar"></div>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="separator"></div>
                 <ul class="main__content-table-wrapper content-table">
-                    <li class="content-table__item content-table__item--push-down">
+                    <li class="content-table__item content-table__item--push-down content-table__item--push-down-mobile">
                         <div class="content-table__icon-wrapper">
                             <div class="content-table__icon">
                                 <img src="images/icons/cloud-icon.png" alt="cloud-icon">
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="content-table__item content-table__item--push-down">
+                    <li class="content-table__item content-table__item--push-down content-table__item--push-down-mobile">
                         <div class="content-table__icon-wrapper">
                             <div class="content-table__icon">
                                 <img src="images/icons/umbrella-icon.png" alt="umbrella-icon">
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="content-table__item">
+                    <li class="content-table__item content-table__item--push-down-mobile">
                         <div class="content-table__icon-wrapper">
                             <div class="content-table__icon">
                                 <img src="images/icons/wrench-icon.png" alt="wrench-icon">
@@ -127,48 +127,50 @@
                         <input class="subscribe-area__button button" type="submit" value="subscribe">
                     </form>
                 </div>
-                <ul class="main__users-panel users-panel">
-                    <li class="users-panel__card">
-                        <img class="users-panel__card-photo" src="images/avatar-001.png" alt="man-avatar-001">
-                        <div class="users-card__info">
-                            <h3 class="users-card__name title">Aliquam porttito</h3>
-                            <div class="users-card__description description">
-                                Praesent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam, gravid
+                <div class="main__users-panel-wrapper">
+                    <ul class="main__users-panel users-panel">
+                        <li class="users-panel__card">
+                            <img class="users-panel__card-photo" src="images/avatar-001.png" alt="man-avatar-001">
+                            <div class="users-card__info">
+                                <h3 class="users-card__name title">Aliquam porttito</h3>
+                                <div class="users-card__description description">
+                                    Praesent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam, gravid
+                                </div>
+                                <button class="users-card__button button" type="button">More</button>
                             </div>
-                            <button class="users-card__button button" type="button">More</button>
-                        </div>
-                    </li>
-                    <li class="users-panel__card">
-                        <img class="users-panel__card-photo" src="images/avatar-002.png" alt="man-avatar-001">
-                        <div class="users-card__info">
-                            <h3 class="users-card__name title">Aliquam porttito</h3>
-                            <div class="users-card__description description">
-                                Lore esent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam
+                        </li>
+                        <li class="users-panel__card">
+                            <img class="users-panel__card-photo" src="images/avatar-002.png" alt="man-avatar-001">
+                            <div class="users-card__info">
+                                <h3 class="users-card__name title">Aliquam porttito</h3>
+                                <div class="users-card__description description">
+                                    Lore esent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam
+                                </div>
+                                <button class="users-card__button button" type="button">More</button>
                             </div>
-                            <button class="users-card__button button" type="button">More</button>
-                        </div>
-                    </li>
-                    <li class="users-panel__card">
-                        <img class="users-panel__card-photo" src="images/avatar-003.png" alt="man-avatar-001">
-                        <div class="users-card__info">
-                            <h3 class="users-card__name title">Aliquam porttito</h3>
-                            <div class="users-card__description description">
-                                Dolo sent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam
+                        </li>
+                        <li class="users-panel__card">
+                            <img class="users-panel__card-photo" src="images/avatar-003.png" alt="man-avatar-001">
+                            <div class="users-card__info">
+                                <h3 class="users-card__name title">Aliquam porttito</h3>
+                                <div class="users-card__description description">
+                                    Dolo sent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam
+                                </div>
+                                <button class="users-card__button button" type="button">More</button>
                             </div>
-                            <button class="users-card__button button" type="button">More</button>
-                        </div>
-                    </li>
-                    <li class="users-panel__card users-panel__card--remove-bottom-indent">
-                        <img class="users-panel__card-photo" src="images/avatar-004.png" alt="man-avatar-001">
-                        <div class="users-card__info">
-                            <h3 class="users-card__name title">Aliquam porttito</h3>
-                            <div class="users-card__description description">
-                                Dolo sent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam, gravid
+                        </li>
+                        <li class="users-panel__card users-panel__card--remove-bottom-indent">
+                            <img class="users-panel__card-photo" src="images/avatar-004.png" alt="man-avatar-001">
+                            <div class="users-card__info">
+                                <h3 class="users-card__name title">Aliquam porttito</h3>
+                                <div class="users-card__description description">
+                                    Dolo sent dapibus, neque id cursus faucibus, tortor neque egestas ue, eu vulputate magna eros  ligula vulputate sem tristique cursus. Nam nulla quam, gravid
+                                </div>
+                                <button class="users-card__button button" type="button">More</button>
                             </div>
-                            <button class="users-card__button button" type="button">More</button>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
                 <div class="separator"></div>
             </main>
             <footer class="container__footer footer">
@@ -184,17 +186,17 @@
                     <div class="footer__card-name">copyrights</div>
                     <div class="footer__card-info">@2013. Sitename. All rights reserved</div>
                 </div>
-                <div class="footer__card">
+                <div class="footer__card footer__card--remove-bottom-indent">
                     <div class="footer__card-name">follow us</div>
                     <ul class="footer__sn-wrapper">
                         <li class="footer__sn">
-                            <a href="#">
+                            <a class="footer__sn-link" href="#">
                                 <img src="images/icons/twitter-icon.png">
                                 <span class="footer__card-info">Twitter</span>
                             </a>
                         </li>
                         <li class="footer__sn">
-                            <a href="#">
+                            <a class="footer__sn-link" href="#">
                                 <img src="images/icons/facebook-icon.png">
                                 <span class="footer__card-info">Facebook</span>
                             </a>
