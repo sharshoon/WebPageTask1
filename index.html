@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
     <title>Website</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container u-overflow-hidden">
         <div class="container__body">
             <header class="header container__header">
                 <div class="header__logo">
@@ -58,62 +59,70 @@
                 </div>
                 <div class="separator"></div>
                 <ul class="main__services-wrapper services">
-                    <li class="service service--push-down service--push-down-mobile">
-                        <div class="service__icon-wrapper">
-                            <div class="service__icon">
-                                <img src="images/icons/cloud-icon.png" alt="cloud-icon">
+                    <li class="services__service-wrapper">
+                        <div class="service services__service service--push-down service--push-down-mobile">
+                            <div class="service__icon-wrapper">
+                                <div class="service__icon">
+                                    <img src="images/icons/cloud-icon.png" alt="cloud-icon">
+                                </div>
                             </div>
-                        </div>
-                        <div class="service__info-wrapper">
-                            <div class="service__info">
-                                <h3 class="service__title title">Aliquam porttitor mauris sit amet</h3>
-                                <div class="service__description description">
-                                    Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+                            <div class="service__info-wrapper">
+                                <div class="service__info">
+                                    <h3 class="service__title title">Aliquam porttitor mauris sit amet</h3>
+                                    <div class="service__description description">
+                                        Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="service service--push-down service--push-down-mobile">
-                        <div class="service__icon-wrapper">
-                            <div class="service__icon">
-                                <img src="images/icons/umbrella-icon.png" alt="umbrella-icon">
+                    <li class="services__service-wrapper">
+                        <div class="service services__service service--push-down service--push-right service--push-down-mobile">
+                            <div class="service__icon-wrapper">
+                                <div class="service__icon">
+                                    <img src="images/icons/umbrella-icon.png" alt="umbrella-icon">
+                                </div>
                             </div>
-                        </div>
-                        <div class="service__info-wrapper">
-                            <div class="service__info">
-                                <h3 class="service__title title">Lorem ipsum dolor sit amet</h3>
-                                <div class="service__description description">
-                                    Caesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+                            <div class="service__info-wrapper">
+                                <div class="service__info">
+                                    <h3 class="service__title title">Lorem ipsum dolor sit amet</h3>
+                                    <div class="service__description description">
+                                        Caesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="service service--push-down-mobile">
-                        <div class="service__icon-wrapper">
-                            <div class="service__icon">
-                                <img src="images/icons/wrench-icon.png" alt="wrench-icon">
+                    <li class="services__service-wrapper">
+                        <div class="service services__service service--push-down-mobile">
+                            <div class="service__icon-wrapper">
+                                <div class="service__icon">
+                                    <img src="images/icons/wrench-icon.png" alt="wrench-icon">
+                                </div>
                             </div>
-                        </div>
-                        <div class="service__info-wrapper">
-                            <div class="service__info">
-                                <h3 class="service__title title">Aliquam porttitor mauris sit amet</h3>
-                                <div class="service__description description">
-                                    Ajaesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+                            <div class="service__info-wrapper">
+                                <div class="service__info">
+                                    <h3 class="service__title title">Aliquam porttitor mauris sit amet</h3>
+                                    <div class="service__description description">
+                                        Ajaesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="service">
-                        <div class="service__icon-wrapper">
-                            <div class="service__icon">
-                                <img src="images/icons/gears-icon.png" alt="geras-icon">
+                    <li class="services__service-wrapper">
+                        <div class="service services__service service--push-right">
+                            <div class="service__icon-wrapper">
+                                <div class="service__icon">
+                                    <img src="images/icons/gears-icon.png" alt="geras-icon">
+                                </div>
                             </div>
-                        </div>
-                        <div class="service__info-wrapper">
-                            <div class="service__info">
-                                <h3 class="service__title title">Aliquam porttitor mauris sit amet</h3>
-                                <div class="service__description description">
-                                    Sent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+                            <div class="service__info-wrapper">
+                                <div class="service__info">
+                                    <h3 class="service__title title">Aliquam porttitor mauris sit amet</h3>
+                                    <div class="service__description description">
+                                        Sent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -122,9 +131,9 @@
                 <div class="main__subscribe-area subscribe-area">
                     <h3 class="subscribe-area__title">Donec nec jus</h3>
                     <form class="subscribe-area__form">
-                        <input class="subscribe-area__text-input input" type="text" name="name" placeholder="your name here...." required>
-                        <input class="subscribe-area__text-input input" type="text" name="email" placeholder="your emailhere...." required>
-                        <input class="subscribe-area__button button" type="submit" value="subscribe">
+                        <input class="subscribe-area__text-input" type="text" name="name" placeholder="your name here...." required>
+                        <input class="subscribe-area__text-input" type="text" name="email" placeholder="your emailhere...." required>
+                        <input class="subscribe-area__button" type="submit" value="subscribe">
                     </form>
                 </div>
                 <div class="main__users-panel-wrapper">
