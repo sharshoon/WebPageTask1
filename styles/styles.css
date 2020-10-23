@@ -166,17 +166,17 @@
     margin: 58px 0px;
 }
 
-.title-main__title{
+.headline__title{
     line-height: 1;
     margin-bottom: 8px;
 }
 
-.title-main__title-description{
+.headline__description{
     font-size: 18px;
     text-transform: uppercase;  
 }
 
-.title-main__button{
+.headline__button{
     height: 54px;
     width: 230px;
     font-size: 20px;
@@ -184,7 +184,7 @@
     margin-right: 2px;
 }
 
-.title-main__button-arrow{
+.headline__button-arrow{
     padding-right: 12px;
 }
 
@@ -453,25 +453,25 @@ ul{
         margin: 15px 0px;
     }
 
-    .title-main{
+    .headline{
         font-size: 20px;
         text-align: center;
     }
 
-    .title-main__title-info{
+    .headline__info{
         width: 100%;
     }
 
-    .title-main__title{
+    .headline__title{
         font-size: 24px;
     }
     
-    .title-main__title-description{
+    .headline__description{
         font-size: 16px;
         text-align: center;
     }
 
-    .title-main__button{
+    .headline__button{
         margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
