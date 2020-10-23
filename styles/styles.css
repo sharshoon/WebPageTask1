@@ -159,7 +159,7 @@
     background-color: #e24f43;
 }
 
-.main__title-wrapper{
+.main__headline-wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -184,7 +184,8 @@
     margin-right: 2px;
 }
 
-.headline__button-arrow{
+.headline__button::before{
+    content: "→";
     padding-right: 12px;
 }
 
@@ -194,33 +195,33 @@
     width: 100%;
 }
 
-.main__content-table-wrapper{
+.main__services-wrapper{
     margin: 59px 0px 60px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.content-table{
+.services{
     width: 100%;
 }
 
-.content-table__item{
+.service{
     width: 49%;
 }
 
-.content-table__icon-wrapper{
+.service__icon-wrapper{
     height: 100%;
     float: left;
     display: flex;
     align-items: center;
 }
 
-.content-table__item--push-down{
+.service--push-down{
     margin-bottom: 43px;
 }
 
-.content-table__icon{
+.service__icon{
     width: 122px;
     height: 122px;
     border: 3px solid #dfdfdf;
@@ -230,23 +231,23 @@
     align-items: center;
 }
 
-.content-table__info-wrapper{
+.service__info-wrapper{
     display: flex;
     height: 100%;
     align-items: center;
 }
 
-.content-table__info{
+.service__info{
     margin-left: 26px;
     margin-right: 41px;
 }
 
-.content-table__title{
+.service__title{
     margin: 10px 0px;
     font-size: 20px;
 }
 
-.content-table__description{
+.service__description{
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.8;
     font-size: 14px;
@@ -449,7 +450,7 @@ ul{
         border-bottom: 1px solid #a5a5a5;
     }
 
-    .main__title-wrapper{
+    .main__headline-wrapper{
         margin: 15px 0px;
     }
 
@@ -480,33 +481,33 @@ ul{
         width: 180px;
     }
 
-    .main__content-table-wrapper{
+    .main__services-wrapper{
         margin: 30px 0px;
     }
 
-    .content-table{
+    .services{
         padding-left: 10px;
     }
 
-    .content-table__item{
+    .service{
         width: 100%;
     }
 
-    .content-table__item--push-down-mobile{
+    .service--push-down-mobile{
         margin-bottom: 20px;
     }
 
-    .content-table__icon{
+    .service__icon{
         width: 100px;
         height: 100px;
     }
 
-    .content-table__title{
+    .service__title{
         margin-bottom: 10px;
         font-size: 16px;
     }
 
-    .content-table__description{
+    .service__description{
         font-size: 12px;
         line-height: 1.5;
     }
@@ -622,11 +623,11 @@ ul{
         justify-content: center;
     }
 
-    .content-table{
+    .services{
         padding: 0 15px;
     }
 
-    .main__title-wrapper{
+    .main__headline-wrapper{
         margin: 40px 10px;
     }
 
