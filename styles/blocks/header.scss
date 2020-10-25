@@ -1,0 +1,91 @@
+.header{
+    box-sizing: border-box;
+    height: 7.2rem;
+    border-top: .3125rem solid $title-color;
+
+    &__title{
+        line-height: 1.1;
+    }
+
+    &__logo{
+        @media(min-width:280px) and (max-width: 768px){
+            padding: .9375rem;
+        }
+
+        @media(min-width:768px) and (max-width: 1170px){ 
+            padding-left: .625rem; 
+        }
+    }
+
+    &__logo-description{
+        font-size: 0.745rem;
+    }
+
+    &__buttons-wrapper{
+        display: flex;
+        margin-right: 2.3rem;
+
+        @media(min-width:280px) and (max-width: 768px){
+            display: none;
+            margin: 0;
+        }
+    }
+
+    &__button{
+        color: $description-color;
+        border-radius: 0.1rem;
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3.5rem;
+        padding: 0 1.37rem 0 1.1rem;
+        margin: 0 0 0 0.25rem;
+        text-transform: uppercase;
+
+        @media(min-width:280px) and (max-width: 768px){
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: .625rem;
+            border-top: .0625rem solid $description-color;
+            border-radius: 0;
+        }
+
+        
+        &:focus{
+            background-color: $button-color;
+            color: white;
+        }
+
+        &:last-child{
+            @media(min-width:280px) and (max-width: 768px){
+                border-bottom: .0625rem solid $description-color;
+            }
+        }
+    }
+
+    &__menu-button{
+        &--hidden{
+            display: none;
+        }
+
+        @media(min-width:280px) and (max-width: 768px){
+            display: block;
+            margin-right: 1.875rem;
+        }
+
+        &:active + .header__buttons-wrapper,
+        &:hover + .header__buttons-wrapper{
+            @media(min-width:280px) and (max-width: 768px){
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+
+    @media(min-width:280px) and (max-width: 768px){
+        height: auto;
+    }
+}

@@ -1,0 +1,81 @@
+.footer{
+    &__card{
+        width: 23%;
+
+        @media(min-width: 280px) and (max-width: 415px){
+            width: 90%;
+            margin-bottom: .9375rem;
+        }
+
+        @media(min-width: 416px) and (max-width: 767px){
+            width: 40%;
+            margin-bottom: .9375rem;
+        }
+
+        &--remove-bottom-indent{
+            @media(min-width: 280px) and (max-width: 415px){
+                margin-bottom: 0;
+            }
+
+            @media(min-width: 416px) and (max-width: 767px){
+                margin-bottom: 0;
+            }
+        }
+
+        @media(min-width:768px) and (max-width: 1170px){ 
+            width: 20%;
+        }
+    }
+    
+    &__card-name{
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        color: $title-color;
+        margin-bottom: .625rem;
+
+        @media(min-width:280px) and (max-width: 768px){
+            margin-bottom: .3125rem;
+            font-size: 1rem;
+        }
+
+        @media(min-width:768px) and (max-width: 1170px){ 
+            margin-bottom: .3125rem;
+        }
+    }
+    
+    &__card-info{
+        font-size: .875rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: $description-color;
+
+        @media(min-width:768px) and (max-width: 1170px){ 
+            margin-left: 0;
+        }
+    }
+    
+    &__sn-wrapper{
+        display: flex;
+    }
+    
+    &__sn{
+        margin-right: 2.5rem;
+
+        @media(min-width:280px) and (max-width: 768px){
+            margin-right: .625rem;
+        }
+
+        @media(min-width:768px) and (max-width: 1170px){ 
+            margin-right: .9375rem;
+        }
+    }
+
+    @media(min-width:280px) and (max-width: 768px){
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: .9375rem 0 .9375rem 0;
+    }
+
+    @media(min-width: 416px) and (max-width: 767px){
+        justify-content: space-around;
+    }
+}

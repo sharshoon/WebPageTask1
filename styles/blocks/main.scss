@@ -1,0 +1,71 @@
+.main{
+    &__headline-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 3.7rem 0;
+
+        @media(min-width:280px) and (max-width: 768px){
+            padding: .9375rem 0;
+        }
+
+        @media(min-width:768px) and (max-width: 1170px){ 
+            padding: 2.5rem .625rem;
+        }
+    }
+
+    &__services-wrapper{
+        width: 100%;
+        margin: 3.7rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        @media(min-width:280px) and (max-width: 768px){
+            margin: 1.875rem 0;
+        }
+    }
+
+    &__subscribe-area{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 3.8rem;
+
+        @media(min-width:280px) and (max-width: 768px){
+            justify-content: center;
+            margin-bottom: 1.875rem;
+        }
+    }
+
+    &__users-panel-wrapper{
+        padding-bottom: 3.75rem;
+        position: relative;
+
+        @media(min-width:280px) and (max-width: 768px){
+            display: flex;
+            justify-content: center;
+            padding-bottom: 1.875rem;
+        }
+
+        @media(min-width:768px) and (max-width: 1170px){ 
+            display: flex;
+            justify-content: center;
+        }
+
+        &::after{
+            content: "";
+            position: absolute;
+            height: .05rem;
+            background-color: $outline-color;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+    &__users-panel{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

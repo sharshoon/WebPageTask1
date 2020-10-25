@@ -1,0 +1,37 @@
+.users-panel__card {
+  height: 28.625rem;
+  width: 16.875rem;
+  margin-right: 1.875rem;
+}
+@media (min-width: 280px) and (max-width: 768px) {
+  .users-panel__card {
+    margin-right: 0;
+    margin-bottom: 0.9375rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1170px) {
+  .users-panel__card {
+    margin: 0 0 0.9375rem 0;
+  }
+}
+.users-panel__card--remove-bottom-indent {
+  margin-right: 0;
+}
+@media (min-width: 280px) and (max-width: 768px) {
+  .users-panel__card--remove-bottom-indent {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 280px) and (max-width: 768px) {
+  .users-panel {
+    justify-content: center;
+    max-width: 16.875rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1170px) {
+  .users-panel {
+    max-width: 37.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
