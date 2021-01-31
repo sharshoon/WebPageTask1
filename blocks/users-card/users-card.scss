@@ -1,0 +1,29 @@
+.users-card{
+    &__photo{
+        vertical-align: bottom;
+    }
+    
+    &__info{
+        border: .0625rem solid $outline-color;
+        border-radius: 0 0 .1875rem .1875rem;
+        padding: 1.6875rem 2.1875rem 1.6875rem 1.8125rem;
+    }
+    
+    &__name{
+        margin-bottom: .625rem;
+        font-size: 1.25rem;
+    }
+    
+    &__description{
+        font-size: .875rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 1.75;
+    }
+    
+    &__button{
+        height: 1.875rem;
+        width: 3.125rem;
+        margin-top: 1.4375rem;
+        font-size: 0.875rem;
+    }
+}

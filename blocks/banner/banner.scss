@@ -1,0 +1,76 @@
+.banner{
+    height: 100%;
+
+    &__image{
+        vertical-align:bottom;
+        width: 100%;
+    }
+
+    &__blackout{
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+
+        &--top-left{
+            background-color: rgba(0,0,0,.6);
+            border-top-left-radius: 0.2rem;
+            top: 0;
+            left: 0;
+        }
+
+        &--top-right{
+            background-color: rgba(0,0,0,.4);
+            border-top-right-radius: 0.2rem;
+            top: 0;
+            right: 0;
+        }
+        
+        &--bottom-left{
+            background-color: rgba(0,0,0,.4);
+            border-bottom-left-radius: 0.2rem;
+            bottom: 0;
+            left: 0;
+        }
+        
+        &--bottom-right{
+            background-color: rgba(0,0,0,.1);
+            border-bottom-right-radius: 0.2rem;
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+    &__blackout-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        height: 2.5rem;
+        font-size: 1.1rem;
+        letter-spacing: 0.01rem;
+        padding: 0 0.7rem 0 0.55rem;
+        background-color: black;
+        color: white;
+        bottom: 0;
+        left: 0;
+        text-transform: uppercase;
+
+        @media(min-width: 280px) and (max-width: 415px){
+            font-size: .5625rem;
+            padding: .375rem;
+            height: auto;
+        }
+
+        @media(min-width: 416px) and (max-width: 767px){
+            font-size: .75rem;
+            padding: .625rem;
+            height: auto;
+        }
+
+        &--highlighted{
+            background-color: $button-color;
+        }
+    }
+}
